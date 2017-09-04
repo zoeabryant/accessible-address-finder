@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.input {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.input,
+.chosen_address,
+.results,
+.error {
+  width: 330px;
+}
+
+.input,
+.chosen_address,
+.a_result,
+.error {
+  padding: 5px 10px;
+}
+
+.input,
+.results {
+  border: 1px solid #999;
+}
+
+.results {
+  border-top: 0px;
+}
+
+.chosen_address {
+  margin-top: 10px;
+  background: #EEE;
+}
+
+.error {
+  background: #FFA8A8;
+}
+
+.a_result:hover {
+  cursor: pointer;
+  background: #EEE;
+}
