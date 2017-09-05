@@ -68,21 +68,23 @@ class AddressFinder extends React.Component {
           )}
         </div>
         {error && <div className="error">Something is wrong!</div>}
-        {results.length > 0 && (
-          <ul className="results" aria-live="polite">
-            {results.map(result => (
-              <li key={result}>
-                <button
-                  onClick={() => this.pickAddress(result)}
-                  className="a_result"
-                >
-                  {result}
-                </button>
-              </li>
-            ))}
-          </ul>
-        )}
-        {chosenAddress && <p className="chosen_address">{chosenAddress}</p>}
+        <div aria-live="polite">
+          {results.length > 0 && (
+            <ul className="results">
+              {results.map(result => (
+                <li key={result}>
+                  <button
+                    onClick={() => this.pickAddress(result)}
+                    className="a_result"
+                  >
+                    {result}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+          {chosenAddress && <p className="chosen_address">{chosenAddress}</p>}
+        </div>
       </div>
     );
   }
