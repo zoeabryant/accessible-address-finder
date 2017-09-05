@@ -34,14 +34,11 @@ class AddressFinder extends React.Component {
     }
     return this.setState({
       results: [
-        '123 avenue',
-        'blah',
-        'blah',
-        'blah',
-        'blah',
-        'blah',
-        'blah',
-        'blah',
+        '1 Bletchley Park',
+        '5 Batey Avenue',
+        '7 Rock Road',
+        '24 Murray Street',
+        '30 Briggs Lane',
       ],
       error: false,
     })
