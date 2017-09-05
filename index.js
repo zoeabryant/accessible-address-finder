@@ -69,7 +69,7 @@ class AddressFinder extends React.Component {
         </div>
         {error && <div className="error">Something is wrong!</div>}
         {results.length > 0 && (
-          <ul className="results">
+          <ul className="results" aria-live="polite">
             {results.map(result => (
               <li key={result}>
                 <button
