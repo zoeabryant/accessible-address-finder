@@ -9,11 +9,12 @@ body {
 }
 
 .input {
+  width: 100%;
   font-size: 16px;
   line-height: 1.5;
 }
 
-.input,
+.input_box,
 .chosen_address,
 .results,
 .error {
@@ -48,4 +49,22 @@ body {
 .a_result:hover {
   cursor: pointer;
   background: #EEE;
+}
+
+.input_box {
+  position: relative;
+}
+
+.clear_button {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+}
+
+.clear_button:hover {
+  cursor: pointer;
+}
+
+.clear_button img {
+  width: 16px;
 }
