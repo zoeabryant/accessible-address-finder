@@ -49,37 +49,40 @@ class AddressFinder extends React.Component {
     const { chosenAddress, results, error, searchTerm } = this.state;
     return (
       <div>
-        <div>Address finder:</div>
+        <label htmlFor="search">Address finder:</label>
         <div className="input_box">
           <input
+            name="search"
             className="input"
             value={searchTerm}
             onChange={this.handleChange}
           />
           {searchTerm.length !== 0 && (
-            <div
+            <button
               className="clear_button"
               onClick={() => this.clearSearchValue()}
             >
               <img src="clear.svg" />
-            </div>
+            </button>
           )}
         </div>
         {error && <div className="error">Something is wrong!</div>}
         {results.length > 0 && (
-          <div className="results">
+          <ul className="results">
             {results.map(result => (
-              <div
-                onClick={() => this.pickAddress(result)}
-                className="a_result"
-                key={result}
-              >
-                {result}
-              </div>
+              <li key={result}>
+                <a
+                  href=""
+                  onClick={() => this.pickAddress(result)}
+                  className="a_result"
+                >
+                  {result}
+                </a>
+              </li>
             ))}
-          </div>
+          </ul>
         )}
-        {chosenAddress && <div className="chosen_address">{chosenAddress}</div>}
+        {chosenAddress && <address className="chosen_address">{chosenAddress}</address>}
       </div>
     );
   }
