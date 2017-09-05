@@ -1,11 +1,13 @@
 # Accessible address finder in 3 simple steps:
 Will soon have a corresponding blog post!
 
-### [Step one: Something that works](https://github.com/zoeabryant/accessible-address-finder/tree/something-that-works)
+### [Start with a working address finder](https://github.com/zoeabryant/accessible-address-finder/tree/something-that-works)
 
-### [Step two: Semantic HTML](https://github.com/zoeabryant/accessible-address-finder/tree/semantic-html)
+### [Step one: Use semantic HTML](https://github.com/zoeabryant/accessible-address-finder/tree/semantic-html)
 
-### [Step three: Annoucing changes](https://github.com/zoeabryant/accessible-address-finder/tree/annoucing-changes)
+### [Step two: Annouce changes](https://github.com/zoeabryant/accessible-address-finder/tree/annoucing-changes)
+
+### [Step three: Force focus after clear](https://github.com/zoeabryant/accessible-address-finder/tree/force-focus)
 
 # Files:
 
