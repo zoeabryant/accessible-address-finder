@@ -63,7 +63,7 @@ class AddressFinder extends React.Component {
               className="clear_button"
               onClick={() => this.clearSearchValue()}
             >
-              <img src="clear.svg" />
+              <img src="clear.svg" alt="Clear address finder" />
             </button>
           )}
         </div>
