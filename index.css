@@ -46,7 +46,6 @@ body {
 .chosen_address {
   margin-top: 10px;
   background: #EEE;
-  font-style: normal;
 }
 
 .error {
@@ -54,9 +53,13 @@ body {
 }
 
 .a_result {
-  display: block;
   color: black;
   text-decoration: none;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
 }
 
 .a_result:hover {

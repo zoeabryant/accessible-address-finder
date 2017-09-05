@@ -72,18 +72,17 @@ class AddressFinder extends React.Component {
           <ul className="results">
             {results.map(result => (
               <li key={result}>
-                <a
-                  href=""
+                <button
                   onClick={() => this.pickAddress(result)}
                   className="a_result"
                 >
                   {result}
-                </a>
+                </button>
               </li>
             ))}
           </ul>
         )}
-        {chosenAddress && <address className="chosen_address">{chosenAddress}</address>}
+        {chosenAddress && <p className="chosen_address">{chosenAddress}</p>}
       </div>
     );
   }
