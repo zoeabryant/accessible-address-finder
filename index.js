@@ -52,6 +52,7 @@ class AddressFinder extends React.Component {
         <label htmlFor="search">Address finder:</label>
         <div className="input_box">
           <input
+            id="search"
             name="search"
             className="input"
             value={searchTerm}
