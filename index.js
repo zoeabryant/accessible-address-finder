@@ -67,7 +67,7 @@ class AddressFinder extends React.Component {
             </button>
           )}
         </div>
-        {error && <div className="error">Something is wrong!</div>}
+        {error && <div role="alert" className="error">Something is wrong!</div>}
         <div aria-live="polite">
           {results.length > 0 && (
             <ul className="results">
