@@ -78,6 +78,7 @@ class AddressFinder extends React.Component {
                 <div
                   onClick={() => this.pickAddress(result)}
                   className="a_result"
+                  key={result}
                 >
                   {result}
                 </div>
