@@ -9,11 +9,13 @@ class AddressFinder extends React.Component {
     };
   }
 
-  clearSearchValue = () =>
+  clearSearchValue = () => {
     this.setState({
       results: [],
       searchTerm: '',
     });
+    this.refs.searchInputField.focus();
+  }
 
   pickAddress = address =>
     this.setState({
@@ -56,6 +58,7 @@ class AddressFinder extends React.Component {
             name="search"
             className="input"
             value={searchTerm}
+            ref='searchInputField'
             onChange={this.handleChange}
           />
           {searchTerm.length !== 0 && (
