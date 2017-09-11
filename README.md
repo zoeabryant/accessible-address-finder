@@ -9,6 +9,8 @@ Will soon have a corresponding blog post!
 
 ### [Step three: Force focus after clear](https://github.com/zoeabryant/accessible-address-finder/tree/force-focus)
 
+### [Bonus: Ideal creative control](https://github.com/zoeabryant/accessible-address-finder/tree/ideal-creative-control)
+
 # Files:
 
 * `clear.svg` a small svg x icon used on a button
