@@ -24,6 +24,7 @@ body {
 .input,
 .chosen_address,
 .a_result,
+.results_count,
 .error {
   padding: 5px 10px;
 }
@@ -34,13 +35,24 @@ body {
 }
 
 .results {
-  padding: 0;
-  margin: 0;
   border-top: 0px;
 }
 
-.results li {
+.results_count {
+  margin: 0;
+}
+
+.results_list {
+  padding: 0;
+  margin: 0;
+}
+
+.results_list li {
   list-style-type: none;
+}
+
+.chosen_address_heading {
+  margin: 0px;
 }
 
 .chosen_address {
