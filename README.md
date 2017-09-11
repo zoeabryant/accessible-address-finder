@@ -3,13 +3,13 @@ Will soon have a corresponding blog post!
 
 ### [Start with a working address finder](https://github.com/zoeabryant/accessible-address-finder/tree/something-that-works)
 
-### [Step one: Use semantic HTML](https://github.com/zoeabryant/accessible-address-finder/tree/semantic-html)
+### [Step one: Use semantic HTML](https://github.com/zoeabryant/accessible-address-finder/pull/1/files#diff-168726dbe96b3ce427e7fedce31bb0bc)
 
-### [Step two: Annouce changes](https://github.com/zoeabryant/accessible-address-finder/tree/annoucing-changes)
+### [Step two: Announce changes](https://github.com/zoeabryant/accessible-address-finder/pull/2/files#diff-168726dbe96b3ce427e7fedce31bb0bc)
 
-### [Step three: Force focus after clear](https://github.com/zoeabryant/accessible-address-finder/tree/force-focus)
+### [Step three: Force focus after clear](https://github.com/zoeabryant/accessible-address-finder/pull/3/files#diff-168726dbe96b3ce427e7fedce31bb0bc)
 
-### [Bonus: Ideal creative control](https://github.com/zoeabryant/accessible-address-finder/tree/ideal-creative-control)
+### [Bonus: Ideal creative control](https://github.com/zoeabryant/accessible-address-finder/pull/4/files#diff-168726dbe96b3ce427e7fedce31bb0bc)
 
 # Files:
 
